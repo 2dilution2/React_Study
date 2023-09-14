@@ -4,8 +4,8 @@ import {Component} from 'react'
 function App() {
   return (
     <div className="App">
-      <FirstComponent></FirstComponent>
-      <SecondComponent></SecondComponent>
+      <FirstComponent/  >
+      <SecondComponent/>
       <ThirdComponent/>
       <ForthComponent/>
     </div>
