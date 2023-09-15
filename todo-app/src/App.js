@@ -1,13 +1,12 @@
 import './App.css';
-import LerningComponent from './component/learning-examples/LearningComponent';
-import LearningJavaScript from './component/learning-examples/learningFavaScript';
+import Counter from './component/count/Counter'
+
 
 
 function App() {
   return (
     <div className="App">
-      <LerningComponent/>
-      <LearningJavaScript/>
+      <Counter/>
     </div>
   );
 }
