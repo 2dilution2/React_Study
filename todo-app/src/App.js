@@ -1,5 +1,5 @@
 import './App.css';
-import Counter from './component/count/Counter'
+import Counter from './component/count/Counter';
 
 
 
@@ -9,6 +9,27 @@ function App() {
       <Counter/>
     </div>
   );
-}
+} 
+
+// function PlatingWithProps(properties) {
+
+//   console.log(properties)
+//   console.log(properties.property1)
+//   console.log(properties.property2)
+
+//   return (
+//     <div>Props</div>
+//   )
+// }
+
+// function PlatingWithProps({property1,property2}) {
+
+//   console.log(property1)
+//   console.log(property2)
+
+//   return (
+//     <div>Props</div>
+//   )
+// }
 
 export default App;
